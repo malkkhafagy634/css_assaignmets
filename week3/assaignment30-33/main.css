@@ -1,0 +1,93 @@
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    z-index: 3;
+    top: 40px;
+    left: 40px;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    
+}
+.black{
+     width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 20px;
+    bottom: 80px;
+    
+    
+}
+.red{
+     width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+   z-index: 4;
+    top: 60px;
+    left: 60px;
+    
+}
+span{
+    background-color: blue;
+    
+}
+.bottom-left{
+    float: left;
+    position: relative;
+    display: inline-block;
+    right: 20px;
+    top: 10px;
+    width: 20px;
+    border-right: red solid 2px;
+    
+}
+.bottom-right{
+    float: right;
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    top: 10px;
+    width: 20px;
+    border-left: red solid 2px;
+}
+.top-left{
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    border-right: blue solid 2px;
+    
+}
+.top-right{
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    border-right: blue solid 2px
+}
+.one{
+    background-color: gray;
+}
+.two{
+    background-color: gray;
+}
+.three{
+    background-color: gray;
+}
+li{
+    list-style-type: none;
+}
