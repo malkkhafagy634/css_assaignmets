@@ -1,0 +1,16 @@
+p{
+    background-color: lightgrey;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    border-right: 5px solid orange;
+    counter-increment: members-counter;
+}
+p::before{
+    content: counter(members-counter);
+    position: absolute;
+    background-color: orange;
+    color: white;
+    width: 10px;
+    height: 20px;
+}

@@ -1,0 +1,13 @@
+div{
+    background-color: lightgray;
+    margin: auto;
+    width: 300px;
+    
+}
+div::first-letter{
+    background-color: red;
+    font-size: 50px;
+    font-weight: 300;
+    
+    
+}
